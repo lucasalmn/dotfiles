@@ -30,7 +30,9 @@ sudo pacman -S zsh				\
 	papirus-icon-theme			\
 	pavucontrol				\
 	pulseaudio				\
-	flameshot					
+	flameshot				\	
+	numlockx				\
+	picom					
 
 echo '--------------Done!------------------'
 echo '----Make good use of your computer!!!----'
