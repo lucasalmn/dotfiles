@@ -1,24 +1,24 @@
 !/usr/bin/env
 
-## instalando o yay no sistema
+## Install yay in the system
 
 
-echo '----É pra já----'
+echo '----Starting----'
 
-echo '--Clonando repositorio--'
+echo '--Cloning the repositorio--'
 	git clone https://aur.archlinux.org/yay.git
 	
-echo'--Entrando no diretorio--'
+echo'--Entering the directory--'
 	cd yay
 	
-echo '--Baixando dependências--'
+echo '--Making dowload of dependency--'
 	sudo pacman -S fakeroot
 	
-echo '--Executando: make -si--'
+echo '--Runig: make -si--'
 	makepkg -si
 	
-echo '--Retornando ao diretorio prinipal--'
+echo '--Going back to the principal directory--'
 	cd ..
 	rm -rf yay
 
-echo '----TUDO PRONTO CHEFE----'
+echo '----DONE!!----'

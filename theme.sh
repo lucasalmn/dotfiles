@@ -1,7 +1,7 @@
 !/usr/bin/env
 
-## Script de automação para mover arquivos de tema\
-para o lugar correto no sistema
+# Script de automação para mover arquivos de tema\
+#para o lugar correto no sistema
 
 echo '---Started---'
 	

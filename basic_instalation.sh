@@ -1,6 +1,6 @@
 !/usr/bin/env
 
-# Automação de instalação
+# Automation for instalation
 
 echo '-- Started the instalation -- '
 
