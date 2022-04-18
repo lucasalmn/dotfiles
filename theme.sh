@@ -11,5 +11,7 @@ echo '---Started---'
 	sudo mv * /usr/share/themes	
 	cd ../.config			
 	mv zathura ~/.config		
+	mv terminator ~/.config
+	cd
 	
 echo '---Done!!---'
