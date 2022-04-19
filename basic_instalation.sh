@@ -4,7 +4,7 @@
 
 echo '-- Started the instalation -- '
 
-sudo pacman -S zsh neofetch xorg xorg-xinit	\
+sudo pacman -Syy zsh neofetch xorg xorg-xinit	\
 	neofetch				\
 	keepassxc				\
 	nvidia					\
@@ -14,7 +14,7 @@ sudo pacman -S zsh neofetch xorg xorg-xinit	\
 	ttf-jetbrains-mono			\
 	vim					\
 	lxappearance				\
-	nitrogen				\	
+	nitrogen				\
 	firefox					\
 	terminator				\
 	zathura					\
@@ -37,7 +37,7 @@ sudo pacman -S zsh neofetch xorg xorg-xinit	\
 	papirus-icon-theme			\
 	pavucontrol				\
 	pulseaudio				\
-	flameshot				\	
+	flameshot				\
 	numlockx				\
 	picom					
 
