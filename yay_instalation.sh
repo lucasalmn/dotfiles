@@ -12,13 +12,12 @@ echo'--Entering the directory--'
 	cd yay
 	
 echo '--Making dowload of dependency--'
-	sudo pacman -S fakeroot
+	sudo pacman -S fakeroot sudo make
 	
 echo '--Runig: make -si--'
 	makepkg -si
 	
 echo '--Going back to the principal directory--'
 	cd ..
-	rm -rf yay
 
 echo '----DONE!!----'

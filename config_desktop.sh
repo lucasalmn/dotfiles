@@ -12,6 +12,9 @@ echo '---Started---'
 	cd ../.config			
 	mv zathura ~/.config		
 	mv terminator ~/.config
-	cd
+	cd .. 
+	mv .zshrc ~/
+	cd .config
+	mv awesome ~/.config && mv gtk-3.0 ~/.config	
 	
 echo '---Done!!---'

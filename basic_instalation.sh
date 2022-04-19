@@ -4,8 +4,14 @@
 
 echo '-- Started the instalation -- '
 
-sudo pacman -S zsh				\
+sudo pacman -S zsh neofetch xorg xorg-xinit	\
 	neofetch				\
+	keepassxc				\
+	nvidia					\
+	nvidia-settings				\
+	nvidia-utils				\
+	nvidia-cg-toolkit			\
+	ttf-jetbrains-mono			\
 	vim					\
 	lxappearance				\
 	nitrogen				\	
@@ -14,6 +20,7 @@ sudo pacman -S zsh				\
 	zathura					\
 	zathura-pdf-poppler			\
 	zathura-djvu				\
+	wget					\
 	zathura-ps				\
 	git					\
 	tar					\
