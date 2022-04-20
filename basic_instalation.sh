@@ -6,6 +6,7 @@ echo '-- Started the instalation -- '
 
 sudo pacman -Syy zsh neofetch xorg xorg-xinit	\
 	neofetch				\
+	htop					\
 	keepassxc				\
 	nvidia					\
 	nvidia-settings				\
