@@ -1,5 +1,5 @@
 !/usr/bin/env
-mkdir -r ~/.vim/pack/git-plugins/start
+mkdir -p ~/.vim/pack/git-plugins/start
 cd ~/.vim/pack/git-plugins/start
 echo 'para setar um plano de fundo'
 git clone https://github.com/rafi/awesome-vim-colorschemes.git
