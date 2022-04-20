@@ -103,4 +103,4 @@ source $ZSH/oh-my-zsh.sh
 
 alias sps="pacman -Ss | grep"
 alias spi="sudo pacman -S"
-
+alias update="sudo pacman -Syyuu"
