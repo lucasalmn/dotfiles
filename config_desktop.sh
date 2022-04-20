@@ -17,7 +17,6 @@ echo '---Started---'
 	cd .config
 	mv awesome ~/.config && mv gtk-3.0 ~/.config	
 	cd ..
-	mv .vimrc ~/
 	sh -c "$(wget https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh -O -)"	
 
 echo '---Done!!---'
